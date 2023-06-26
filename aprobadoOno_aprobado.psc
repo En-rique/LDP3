@@ -34,4 +34,9 @@ Algoritmo sin_titulo
 	salida(nom, prom)
 	aprobado(prom)
 	
+	mostrar "Segundo estudiante"
+	calculo_prom(10,18,17, prom)
+	salida("Isabella", prom)
+	
+	
 FinAlgoritmo
