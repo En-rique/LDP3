@@ -26,13 +26,16 @@ SubProceso procesar_datos(cant, contador Por Referencia, contador_apro Por Refer
 FinSubProceso
 
 SubProceso resultado(cant, contador, acum_notas, acum_apro, acum_repro, prom, porc_apro, porc_repro)
+	Mostrar ""
 	Mostrar contador " estudiantes tienen una nota perfecta "
+	Mostrar ""
 	Mostrar "La sumatoria de las notas es: " acum_notas
-	Mostrar "La sumatoria de las notas >50 es: " acum_apro
-	Mostrar "La sumatoria de las notas <50 es: " acum_repro
 	Mostrar "El porcentaje de aprobados es: " porc_apro "%"
+	Mostrar "La sumatoria de las notas >50 es: " acum_apro
 	Mostrar "El porcentaje de reprobados es: " porc_repro "%"
-	Mostrar "El promedio de la sección es " prom 
+	Mostrar "La sumatoria de las notas <50 es: " acum_repro
+	Mostrar ""
+	Mostrar "El promedio de la sección es " prom
 FinSubProceso
 
 SubProceso calculos(prom Por Referencia, cant, acum_notas)
